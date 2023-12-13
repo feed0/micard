@@ -14,16 +14,16 @@ class MyApp extends StatelessWidget {
   final List<Shadow> textShadows = [
     const Shadow(
       color: Color.fromRGBO(0, 0, 0, 1.0),
-      offset: Offset.zero,
+      offset: Offset(0, 4),
       blurRadius: 10.0,
     )
   ];
   final List<BoxShadow> boxShadows = [
     BoxShadow(
         blurRadius: 10,
-        color: Colors.grey.shade100,
+        color: Colors.grey.shade800,
         spreadRadius: 5,
-        offset: Offset(0, 70))
+        offset: Offset(0, 4))
   ];
 
   @override
